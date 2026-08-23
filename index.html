@@ -109,8 +109,6 @@ header{height:68px;border-bottom:1px solid #e8e9eb;padding:0 30px;display:flex;a
 </div>
 
 <script>
-// localStorage 완전 초기화
-localStorage.clear();
 
 let items=JSON.parse(localStorage.getItem('schoolLostFound')||'[]'),current='전체',pendingData=null;
 const $=id=>document.getElementById(id);
